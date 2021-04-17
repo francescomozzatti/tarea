@@ -1,4 +1,4 @@
-from prog.ej import cartonfun
+from prog.carton_primitivo import cartonfun
 
 def test_cartonfun():
     cartoncito=cartonfun()

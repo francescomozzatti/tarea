@@ -1,4 +1,4 @@
-from prog.aux_fila import aux_fila
+from prog.validar_consecutivas_primitiva import aux_fila
 
 def carton_casillas_consecutivas(carton):
     bandera=1

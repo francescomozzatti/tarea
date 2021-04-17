@@ -1,6 +1,6 @@
-from prog.carton_casillas_consecutivas import carton_casillas_consecutivas
-from prog.nums_orden import nums_orden
-from prog.carton_bingos import carton_bingos
+from prog.validar_consecutivas import carton_casillas_consecutivas
+from prog.validar_orden_DOWNRIGHT import nums_orden
+from prog.carton_posible import carton_bingos
 
 def carton_carton():	
     contador=0
