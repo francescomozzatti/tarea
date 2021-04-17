@@ -2,5 +2,3 @@ def cartonfun():
 
     carton=((0,1,1,1,1,1,1,1,1,),(0,1,1,1,1,1,1,0,0,),(1,0,0,0,0,0,0,0,0,))
     return carton
-
-print(cartonfun())
