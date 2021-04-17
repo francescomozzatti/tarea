@@ -2,7 +2,7 @@
 [![Coverage Status](https://s3.amazonaws.com/assets.coveralls.io/badges/coveralls_99.svg)](https://coveralls.io/github/francescomozzatti/tarea)
 
 # Bingo
-En este reopisitorio se encuentra un programa en Python, que genera (al azar) e imprime un carton de Bingo siguiendo las reglas necesarias. Tambien hay adjuntos en la carpeta `test` varios test automatizados que validan el programa principal y tambien que testean los programas de validacion.
+En este repositorio se encuentra un programa en Python, que genera (al azar) e imprime un carton de Bingo siguiendo las reglas necesarias. Tambien hay adjuntos, en la carpeta `test`, varios test automatizados que validan el programa principal y tambien que testean los programas de validacion.
 
 ## Reglas
 Se considara un cartón válido al que cumple con las siguientes condiciones:
