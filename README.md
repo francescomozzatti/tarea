@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.com/francescomozzatti/tarea.svg?branch=master)](https://travis-ci.com/francescomozzatti/tarea)
-[![Coverage Status](https://coveralls.io/repos/github/francescomozzatti/tarea/badge.svg)](https://coveralls.io/github/francescomozzatti/tarea)
+[![Coverage Status](https://s3.amazonaws.com/assets.coveralls.io/badges/coveralls_99.svg)](https://coveralls.io/github/francescomozzatti/tarea)
 
 # Bingo
 En este reopisitorio se encuentra un programa en Python, que genera (al azar) e imprime un carton de Bingo siguiendo las reglas necesarias. Tambien hay adjuntos en la carpeta `test` varios test automatizados que validan el programa principal y tambien que testean los programas de validacion.
