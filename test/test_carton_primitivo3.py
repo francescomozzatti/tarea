@@ -15,3 +15,5 @@ def test_cartonfun():
                     bandera=0
 
     assert bandera==1
+
+#veo si hay columnas totalmente vacias, ya que si en lista al final hay algun 0, es que los tres numeros de esa columna suman 0,, y por tanto son 3 ceros. 

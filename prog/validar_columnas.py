@@ -1,7 +1,7 @@
 def nums_cant_en_columnas(carton):
     tot=0 
-    c1=0
-    c2=0
+    c1=0 #columnas con una sola ocupada
+    c2=0 #columnas con dos ocupadas
     for columna in range(0,9):
         if(tot==2):
              c2=c2+1

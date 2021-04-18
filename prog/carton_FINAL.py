@@ -13,6 +13,7 @@ def nums_orden(carton):
                           bandera=0
                     
     return bandera==1
+
 #esta funcion soluciona todos los probelemas de orden, en cada columna estan ordenados para a bajo, y si aparece un numero, a la izquierda son todos mas chicos. Esto es porque sigue un recorrido bajando por cada columna y avanzando de columna en colmna para la derecha. 
 
 
@@ -30,10 +31,7 @@ def carton_casillas_consecutivas(carton):
     return bandera==1
 
 
-
-
-
-
+#que las filas respeten que no haya 3 celdas ocupadas o vacias consecutivas. 
 
 
 
@@ -43,8 +41,8 @@ def carton_casillas_consecutivas(carton):
 
 def aux_fila(fila):
     bandera=1
-    conv=0
-    conn=0
+    conv=0 #cantidad actual de celdas vacias consecutivas
+    conn=0 #cantidad actual de celdas ocupadas consecutivas
     for celda in fila:
         if(celda==0): 
             conv=conv+1
@@ -64,6 +62,7 @@ def aux_fila(fila):
 
 
 
+#los anteriores son los test necesarios y suficientes para validar el carton de la funcion "carton_bingos()", las demas reglas las cumple de por si, igualmente despues se validan con los test automatizados.
 
 
 
@@ -72,8 +71,7 @@ def aux_fila(fila):
 
 
 
-
-def carton_bingos():
+def carton_bingos(): #funcion traducida del algorit en PHP
     contador=0
 
 
